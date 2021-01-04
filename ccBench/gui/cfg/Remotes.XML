@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE RemoteDefinition [
+   <!ELEMENT RemoteDefinition ( ip,username,foldername,isSelected,hostname ) >
+   <!ELEMENT ip         (#PCDATA)>
+   <!ELEMENT username   (#PCDATA)>
+   <!ELEMENT foldername (#PCDATA)>
+   <!ELEMENT isSelected (#PCDATA)>
+   <!ELEMENT useSCP (#PCDATA)>
+   <!ELEMENT useLOCALDEF (#PCDATA)>
+   <!ELEMENT LOCALDEF (#PCDATA)>
+   <!ELEMENT SHELLCMD (#PCDATA)>
+]>
+
