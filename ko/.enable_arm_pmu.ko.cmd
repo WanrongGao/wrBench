@@ -1,1 +1,0 @@
-cmd_/root/ko/enable_arm_pmu.ko := ld -r  -EL  -maarch64elf -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds  --build-id  -o /root/ko/enable_arm_pmu.ko /root/ko/enable_arm_pmu.o /root/ko/enable_arm_pmu.mod.o ;  true
